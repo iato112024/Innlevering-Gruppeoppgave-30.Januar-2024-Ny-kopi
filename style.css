@@ -1,0 +1,364 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  text-decoration: none;
+}
+.navbar {
+  background: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 10px;
+  color: beige;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: beige;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: beige;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+button {
+  background-color: beige;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+/* Thomas: I use the first image in the body{ as background since then the website has a nice transition when you scroll down */
+body {
+  text-align: center;
+  margin: 0;
+  background-color: black;
+  background-image: url("./titan-kopi.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: beige;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#Thomas {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 90px;
+}
+
+/* part Thomas */
+
+/* Same picture as the background */
+#Titan {
+  background-image: url("./titan.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 8vw;
+}
+
+h1 {
+  color: beige;
+  font-size: 55px;
+  margin-left: 650px;
+  margin-top: 140px;
+  width: 50%;
+}
+
+#p1,
+#p2 {
+  color: beige;
+  width: 40%;
+  margin-left: 750px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+#Titan_1 {
+  background-image: url(./titan_8.jpg.avif);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 13vw;
+}
+
+#titan_1d {
+  float: right;
+  border-radius: 5%;
+  padding: 5px;
+  width: 50%;
+  height: 400px;
+  margin: 40px;
+}
+
+#titan_2d {
+  float: right;
+  border-radius: 5%;
+  padding: 5px;
+  width: 50%;
+  margin: 30px;
+}
+
+h2 {
+  color: beige;
+  font-size: 65px;
+  text-align: left;
+}
+
+#p3,
+#p4,
+#p4-2 {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+
+#Titan_2 {
+  background-image: url(./page_2-kopi.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 16vw;
+}
+
+/* Jeg hadde et problem å skille mellom bakgrunn og forbilder, da la jeg til en bokstaver foran navnet */
+#titan_3d {
+  float: left;
+  border-radius: 5%;
+  padding: 5px;
+  width: 50%;
+  margin: 30px;
+}
+
+#titan_4d {
+  float: left;
+  border-radius: 5%;
+  padding: 5px;
+  width: 50%;
+  margin: 30px;
+}
+
+h2 {
+  color: beige;
+  font-size: 65px;
+  text-align: right;
+}
+
+#p3,
+#p4,
+#p4-2 {
+  color: white;
+  font-size: 25px;
+  text-align: right;
+}
+
+#Titan_3 {
+  background-image: url(./titan_3-kopi.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 15vw;
+}
+
+#titan_5d {
+  float: right;
+  size: 50%;
+  border-radius: 5%;
+  padding: 5px;
+  height: 400px;
+  width: 50%;
+  margin: 35px;
+}
+
+#titan_6d {
+  float: right;
+  size: 50%;
+  border-radius: 5%;
+  padding: 5px;
+  width: 50%;
+  margin: 35px;
+}
+
+h2 {
+  color: beige;
+  font-size: 65px;
+  text-align: left;
+}
+/*combined paragraphs */
+#p5,
+#p6,
+#p6-2 {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+
+/* Part: Elvis */
+
+#Titan_4 {
+  /* Background picture */
+  background-image: url(./saturn_LD-1600x800.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 15vw;
+}
+
+#titan_7d {
+  /* Picture adjustments */
+  float: left;
+  size: 50%;
+  border-radius: 5%;
+  padding: 5px;
+  height: 350px;
+  width: 50%;
+  margin: 35px;
+}
+
+#titan_8d {
+  /*Picture adjustments */
+  float: left;
+  size: 50%;
+  border-radius: 5%;
+  padding: 5px;
+  width: 50%;
+  margin: 35px;
+}
+
+h2 {
+  color: beige;
+  font-size: 65px;
+  text-align: right;
+}
+
+/*combined paragraphs*/
+#p7,
+#p8,
+#p9 {
+  color: white;
+  font-size: 25px;
+  text-align: right;
+}
+
+#Titan_5 {
+  /* Background picture and adjustments */
+  background-image: url(./water_in_on_saturn.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 15vw;
+}
+
+#titan_9d {
+  /* Picture adjustment */
+  float: right;
+  size: 50%;
+  border-radius: 5%;
+  padding: 5px;
+  height: 450px;
+  width: 50%;
+  margin: 35px;
+}
+
+#titan_10d {
+  /* Picture adjustment */
+  float: right;
+  size: 50%;
+  border-radius: 5%;
+  padding: 5px;
+  width: 50%;
+  margin: 35px;
+}
+
+h2 {
+  color: beige;
+  font-size: 65px;
+  text-align: left;
+}
+
+/*combined paragraphs styling*/
+#p10,
+#p11,
+#p12 {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+
+#Titan_6 {
+  /* Background image*/
+  background-image: url(./titan_background_3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 20vw;
+}
+
+#titan_11d {
+  /* Picture adjustmens */
+  float: left;
+  size: 50%;
+  border-radius: 5%;
+  padding: 5px;
+  height: 400px;
+  width: 50%;
+  margin: 35px;
+}
+
+#titan_12d {
+  /* Picture adjustments*/
+  float: left;
+  size: 50%;
+  border-radius: 5%;
+  padding: 5px;
+  width: 50%;
+  margin: 35px;
+}
+
+h2 {
+  color: beige;
+  font-size: 65px;
+  text-align: right;
+}
+
+/* combined paragraphs styling and its easier */
+#p13,
+#p14,
+#p15 {
+  color: white;
+  font-size: 25px;
+  text-align: right;
+}
+
+/*Footer at the bottom idk if its any difference  */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#timeline {
+  margin-bottom: 1px;
+}
