@@ -10,13 +10,14 @@ html {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-right: 15px;
   padding-left: 15px;
-  height: 10px;
+  height: 20x;
   color: beige;
 }
 .navdiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 55px;
 }
 .logo a {
   font-size: 35px;
@@ -50,7 +51,7 @@ body {
   text-align: center;
   margin: 0;
   background-color: black;
-  background-image: url("./titan-kopi.jpg");
+  background-image: url("./titan.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -143,7 +144,7 @@ h2 {
   padding: 16vw;
 }
 
-/* Jeg hadde et problem å skille mellom bakgrunn og forbilder, da la jeg til en bokstaver foran navnet */
+/* Jeg hadde et problem Ã¥ skille mellom bakgrunn og forbilder, da la jeg til en bokstaver foran navnet */
 #titan_3d {
   float: left;
   border-radius: 5%;
@@ -352,13 +353,26 @@ h2 {
   text-align: right;
 }
 
-/*Footer at the bottom idk if its any difference  */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+footer {
+  background: black; /* Keeps footer background consistent */
+  color: beige;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px; /* Text smaller, thomas said it was too big so i try different sizes*/
+  position: relative; /* Ensures it does not float */
+  width: 100%; /* Full width stretch */
 }
 
-#timeline {
-  margin-bottom: 1px;
+#timeline ul li {
+  font-size: 20px;
+  padding: 4px 0;
+  margin: 3px 0; /* Reduce space between items */
 }
+
+/* Hopefully Thomas is happy with the size now lol*/
+
+/* Mine and Thomas pages dont look the same on our computer, we had a lot of trouble gettin it to work well me, dont know because he has a mac and i laptop.
+I talked to john about it and he said its normal and we learn more about it later. That was the hardest part to match it, i had a lot problems with the navbar and etc.
+i dont know if it was glitch and the screenresololution i have is the recomended one. I had problem styling last part to match but if i change the screen resolution from 150 to 125 then it looks more close to Thomas version. 
+Theres also 2 pictures he hasnt been able to send me i cant save them on my laptop for some reason so his code in my file lacks 2 background pictures so thats why his 2 pages are dark only. 
+He is going to have the best version or the so called complete full version because of that unless one of you guys gets to help us before the deadline.*/
